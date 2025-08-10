@@ -12,7 +12,7 @@ def ana_menu():
              yakit_dolumu()
            elif islem==2:
              print(islem,"- 🧼  Yikama ve Hava dolumu adlı islemi sectiniz",end=".\n")
-             break
+             yikama_havadolum()
            elif islem==3:
              print(islem,"- 🛒  Market adlı islemi sectiniz",end=".\n")
              break
@@ -58,7 +58,7 @@ def yakit_dolumu():
                   print("⚠️ Geçersiz giriş! Lütfen tekrar deneyin.")
             
                   
-def Yikama_Havadolum():
+def yikama_havadolum():
            while True:
              print("\n 🧼 Yikama ve Hava Doldurma Seçeneklerinden Birini Seçiniz...")
              print("1- 🧼 Yikama ")
@@ -72,22 +72,12 @@ def Yikama_Havadolum():
              elif secim == 2:
                    print("⛽ Benzin (FuelSave) Seçildi")
              elif secim == 3:
-                   print("⛽ Dizel (FuelSave) Seçildi")
-             elif secim == 4:
-                   print("⛽ Dizel (VPower) Seçildi")
-             elif secim == 5:
-                   print("🛢️ LPG Seçildi")
-             elif secim == 6:
-                   print("⚡ Electric (AC) Seçildi")
-             elif secim == 7:
-                   print("⚡ Electric (DC) Seçildi")
-             elif secim == 8:
                    print("↩️ Ana menüye dönülüyor...\n")
                    return
              else:
-                      print("⚠️ Geçersiz giriş! Lütfen tekrar deneyin.")       
-          
-          
+                      print("⚠️ Geçersiz giriş! Lütfen tekrar deneyin.")
+            
+         
                   
 print( "PETROL OFİSİNE HOŞGELDİNİZ!")
 ana_menu()
