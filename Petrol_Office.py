@@ -60,24 +60,26 @@ def yakit_dolumu():
                   
 def yikama_havadolum():
            while True:
-             print("\n 🧼 Yikama ve Hava Doldurma Seçeneklerinden Birini Seçiniz...")
-             print("1- 🧼 Yikama ")
-             print("2-  Hava Dolumu ")
+             print("\n 🧼/🚿 Yikama ve ༄ Hava Doldurma Seçeneklerinden Birini Seçiniz...\n")
+             print("1- 🧼/🚿 Yikama ")
+             print("2- ༄ Hava Dolumu ")
              print("3- ↩️ Geri \n")
              
-             secim = int(input("Seciminiz:"))
+             secim = int(input("Seciminiz:\n"))
              
              if secim == 1:
-                      print("⛽ Benzin (VPower) Seçildi")
+                      print("\n 🧼/🚿 Yikama Seçildi")
              elif secim == 2:
-                   print("⛽ Benzin (FuelSave) Seçildi")
+                   print("༄ Hava Dolumu Seçildi")
              elif secim == 3:
                    print("↩️ Ana menüye dönülüyor...\n")
                    return
              else:
                       print("⚠️ Geçersiz giriş! Lütfen tekrar deneyin.")
             
-         
-                  
+          
+          
+          
+                   
 print( "PETROL OFİSİNE HOŞGELDİNİZ!")
 ana_menu()
