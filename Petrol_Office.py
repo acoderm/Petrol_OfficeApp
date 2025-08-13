@@ -101,8 +101,8 @@ def market():
                   print("100")    
                   print("200")   
                   secenek=int(input(secenek))
-                  if secenek==1:
-                    print("🥤 Hangi İceceği Secmek İstersiniz...")
+             if secim==2:
+                    print("🥤 Hangi Gıdayı Secmek İstersiniz...")
                     print("1- 🥤 Pide ")
                     print("2- 🥤 Lahmacun ")
                     print("3- 🍔 Hamburger")
@@ -112,12 +112,14 @@ def market():
                     print("7- Urfa Kebap")
                     print("8- Pizza")
                     print("9- ↩️ Geri \n")
+                    secenek=int(input(secenek))
                     print("Lütfen Belirli Bir Kredi Giriniz")
                     print("25")
                     print("30")
                     print("50")
-                    print("100")
+                    print("100")    
                     print("200")   
+                    secenek=int(input(secenek))   
                    
 print( "PETROL OFİSİNE HOŞGELDİNİZ!")
 ana_menu()
