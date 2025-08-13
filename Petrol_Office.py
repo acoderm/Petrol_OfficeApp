@@ -15,7 +15,7 @@ def ana_menu():
              yikama_havadolum()
            elif islem==3:
              print(islem,"- 🛒  Market adlı islemi sectiniz",end=".\n")
-             break
+             market()
            elif islem==4:
              print(" 👋  Lütfen Soldaki Çikisi Kullaniniz , Hayirli Yolculuklar Dileriz :)")
              break
@@ -77,7 +77,14 @@ def yikama_havadolum():
              else:
                       print("⚠️ Geçersiz giriş! Lütfen tekrar deneyin.")
             
-          
+def market():
+           while True:
+             print("\n 7/24 Markete Hosgeldiniz...\n")
+             print("Lütfen Belirli Bir Kredi Giriniz")
+             print("25")
+             print("30")
+             print("50")
+             print("100")       
           
           
                    
