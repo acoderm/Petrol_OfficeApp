@@ -1,3 +1,4 @@
+
 def ana_menu():
          while True:
            print("Lütfen Yapmak İstediginiz İslemi Seciniz:\n")
@@ -80,13 +81,43 @@ def yikama_havadolum():
 def market():
            while True:
              print("\n 7/24 Markete Hosgeldiniz...\n")
-             print("Lütfen Belirli Bir Kredi Giriniz")
-             print("25")
-             print("30")
-             print("50")
-             print("100")       
-          
-          
+             print("Lütfen HAngi Ürünü Almak istediğinizi Seciniz:\n")
+             print("1- 🥤 İçecekler ")
+             print("2- 🍔 Gıda ")
+             print("3- ↩️ Geri \n")
+             secim=int(input(secim))
+             if secim==1:
+                  print("🥤 Hangi İceceği Secmek İstersiniz...")
+                  print("1- 🥤 Su ")
+                  print("2- 🥤 Soda ")
+                  print("3- 🥤 Kola")
+                  print("4- ↩️ Geri \n")
+                  print("5- ↩️ Geri \n")
+                  secenek=int(input(secenek))
+                  print("Lütfen Belirli Bir Kredi Giriniz")
+                  print("25")
+                  print("30")
+                  print("50")
+                  print("100")    
+                  print("200")   
+                  secenek=int(input(secenek))
+                  if secenek==1:
+                    print("🥤 Hangi İceceği Secmek İstersiniz...")
+                    print("1- 🥤 Pide ")
+                    print("2- 🥤 Lahmacun ")
+                    print("3- 🍔 Hamburger")
+                    print("4- Schinitzel")
+                    print("5- Köfte Ekmek")
+                    print("6- Adana Kebap")
+                    print("7- Urfa Kebap")
+                    print("8- Pizza")
+                    print("9- ↩️ Geri \n")
+                    print("Lütfen Belirli Bir Kredi Giriniz")
+                    print("25")
+                    print("30")
+                    print("50")
+                    print("100")
+                    print("200")   
                    
 print( "PETROL OFİSİNE HOŞGELDİNİZ!")
 ana_menu()
